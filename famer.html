@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Buyers page
+    </title>
+    <style>
+      .header {
+        background-color: rgb(135, 125, 125);
+        height: 45px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-radius: 10px;
+        box-shadow: 10px 9px 10px rgba(0,0,0,.15)
+      }
+      p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+      body {
+        background-color: #9a8476;
+      }
+      .details {
+        margin-top: 200px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .form {
+        display: flex;
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+        align-self:center;
+      }
+      .loc {
+        border-color: rgb(87, 81, 81);
+        border-radius: 7px;
+        height: 30px;
+        width: 250px;
+        outline:none !important;
+      }
+      .submit {
+        text-align: center;
+      }
+      .submit-button {
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 10px 10px 10px rgba(0,0,0, .3);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      ::placeholder {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+      }
+      .left-section {
+        margin-left: 5px;
+        margin-top: 8px;
+        font-weight: bold;
+      }
+      .right1 {
+        margin-top: 10px;
+        margin-left: 75%;
+        text-align: right;
+        display: inline-block;
+        font-weight: bold;
+      }
+      .right2 {
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        font-weight: bold;
+      }
+      .right3 {
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body class="body">
+    <div class="header">
+      <p class="left-section">
+        FARMER LOGIN
+      </p>
+
+      <p class="right1">
+         HOME 
+      </p>
+      <p class="right2">
+        ABOUT
+      </p>
+      <p class="right3">
+        CONTACT
+      </p>
+    </div>
+    
+
+    <div>
+      <p class="details">
+        ENTER DETAILS
+      </p>
+
+      <form  class="form">
+        <input class="loc" type="text" placeholder="LOCATION">
+      </form>  
+
+      <form  class="form">
+        <input class="loc"type="text" placeholder="PH">
+      </form>
+
+      <form  class="form">
+        <input class="loc" type=" text" placeholder="MOISTURE">
+      </form>
+
+      <div  class="submit">
+        <button class="submit-button">
+          SUBMIT
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
